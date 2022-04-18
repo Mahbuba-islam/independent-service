@@ -1,0 +1,18 @@
+.service-container img{
+    height: 600px;
+    
+   
+}
+.service-container{
+    width: 400px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    
+}
+
+.btn{
+    color: rgb(57, 15, 184);
+    background: rgba(160, 32, 32, 0.13);
+    border: none;
+    padding: 15px;
+}
