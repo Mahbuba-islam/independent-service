@@ -4,10 +4,10 @@ const Footer = () => {
     const today = new Date();
     const year = today.getFullYear();
     return (
-        <footer className='text-center mt-4 bg-black  ' style={{height:'160px'}}>
-           <div className=' mt-5 text-white'>
-           <h3 className='mb-5'><small>Angel Project Photography</small></h3>
-            <p className='mt-5'><small className='mt-5'>copyright @ {year} </small></p>
+        <footer className='text-center mt-4 bg-black mb-3 p-5 ' style={{height:'160px'}}>
+           <div className='  text-white'>
+           <h3 className=''><small>Angel Project Photography</small></h3>
+            <p className=''><small className='mt-5'>copyright @ {year} </small></p>
          </div> 
         </footer>
     );

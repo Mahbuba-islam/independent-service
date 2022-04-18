@@ -2,9 +2,9 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div>
-            <h2>My Goals In My Life</h2>
-            <div className="container">
+        <div className='ms-5 mt-5 p-5'>
+            <h2 className='text-center text-primary mb-4 '>My Goals In My Life</h2>
+            <div className="container text-black bg-white p-4">
                
                 <p>A person needs to achieve certain goals in one's life before you can call them successful. 
                  is to achieve goals, you have set. I have set certain goals i would like to achieve my lifetime.

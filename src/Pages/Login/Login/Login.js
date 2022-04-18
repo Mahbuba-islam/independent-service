@@ -70,13 +70,13 @@ const Login = () => {
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                 </Form.Group>
-                <Button variant="primary w-50 mx-auto d-block mb-2" type="submit">
+                <Button variant="primary text-white w-50 mx-auto d-block mb-2" type="submit">
                     Login
                 </Button>
             </Form>
             {errorElement}
-            <p>New to Genius Car? <Link to="/register" className='text-primary pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link> </p>
-            <p>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
+            <p>New to Angel photoShop? <Link to="/register" className='text-primary pe-auto text-decoration-none' onClick={navigateRegister}>Please SignUp</Link> </p>
+            <p>Forget Password? <button className='btn btn-link text-white pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
             <SocialLogin></SocialLogin>
             <ToastContainer></ToastContainer>
         </div>

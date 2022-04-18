@@ -1,8 +1,14 @@
-# lucky-one
+# Independent Service Provider
+About my site:
+1. This site is about photography. 
+2. Site name is 'Angel Project Photography' 
+3. For create this site i have used 'react-router-dom'
+4. And also use firebase, firebase hooks etc.
+5. I created this site for our Assignment-10
 
 ## live website link(https://calm-quokka-62172c.netlify.app/)
 
-## This is first react-project-8
+## This is first react-project-10
 
 In the react project directory, you can run:
 
