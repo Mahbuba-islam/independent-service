@@ -1,12 +1,27 @@
 .service-container img{
     height: 600px;
+    width: 600px;
     
    
 }
 .service-container{
-    width: 400px;
+    width: 200px;
+    height: 200px;
     margin: 10px auto;
     box-sizing: border-box;
+    padding: 0%;
+
+    
+}
+.service-container p{
+    padding: 20px;
+    color: black;
+    
+}
+
+.service-container h2{
+    padding: 20px;
+    color: rgba(31, 98, 223, 0.89);
     
 }
 

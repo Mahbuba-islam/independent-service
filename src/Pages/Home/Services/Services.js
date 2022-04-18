@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Service from '../Service/Service';
+import Service from '../Home/Service/Service';
 import './Services.css';
 
 const Services = () => {
@@ -13,10 +13,10 @@ const Services = () => {
     }, [])
 
     return (
-        <div id="services" className='container'>
-            <div className="row">
-            <h1 className='text-primary text-center mt-5'> Our Services</h1>
-            <div className="services-container">
+        <div id="services" className='container mt-5 py-2'>
+            <div className="row ">
+            <h1 className='text-primary text-center mt-5 '> Our Services</h1>
+            <div className="services-container text-black">
             {
                 services.map(service => <Service
                     key={service.id}

@@ -3,8 +3,9 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import './Register.css';
 import auth from '../../../firebase.init';
-import SocialLogin from '../SocialLogin/SocialLogin';
+
 import Loading from '../../Shared/Loading/Loading';
+import SocialLogin from '../Login/SocialLogin/SocialLogin/SocialLogin';
 
 const Register = () => {
     const [agree, setAgree] = useState(false);
@@ -12,9 +13,9 @@ const Register = () => {
         createUserWithEmailAndPassword,
         user,
         loading,
-        
+        error,
     ] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification: true});
-    const [updateProfile, updating] = useUpdateProfile(auth);
+    const [updateProfile, updating, updateError] = useUpdateProfile(auth);
 
     const navigate = useNavigate();
 

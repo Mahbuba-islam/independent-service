@@ -1,0 +1,13 @@
+.navbar{
+    background: rgba(157, 212, 219, 0);
+    color: rgb(12, 0, 0);
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.btn{
+    padding: 10px;
+    background-color: rgba(0, 162, 255, 0.568);
+    
+}
